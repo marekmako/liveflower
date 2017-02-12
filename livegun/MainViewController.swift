@@ -13,7 +13,7 @@ class MainViewController: BaseViewController {
     
     fileprivate let kills = Kills()
     
-    /// nastavene po unwinde z WeaponViewController, kde si hrac vybral zbran po pouziti vo videoVC je zbvar vynulovana
+    /// nastavene po unwinde z WeaponViewController, kde si hrac vybral zbran po pouziti vo videoVC je zbran vynulovana
     var selectedWeaponType: BaseWeaponType?
     
     @IBOutlet weak var killedLabel: UILabel!

@@ -38,7 +38,7 @@ class RewardAd: NSObject, GADRewardBasedVideoAdDelegate {
             #if DEBUG
                 print("RewardAd.load")
             #endif
-            ad.load(GADRequest(), withAdUnitID: "ca-app-pub-3278005872817682/4989693076")
+            ad.load(GADRequest(), withAdUnitID: "ca-app-pub-3278005872817682/6669099079")
         }
     }
     

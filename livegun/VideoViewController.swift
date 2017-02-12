@@ -8,6 +8,7 @@
 
 import UIKit
 import AVFoundation
+import AudioToolbox
 
 class VideoViewController: BaseViewController {
     
@@ -389,6 +390,8 @@ extension VideoViewController {
     }
     
     @objc private func onShot(sender: UITapGestureRecognizer) {
+        AudioServicesPlayAlertSound(kSystemSoundID_Vibrate)
+        
         let touchPoint = sender.location(in: view)
         if touchPoint.x >= view.bounds.width - gunLayer.bounds.width && touchPoint.y >= view.bounds.height - gunLayer.bounds.height { // klika na zbran
             

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20448D331E503CA900EF6EE6 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20448D321E503CA900EF6EE6 /* GameKit.framework */; };
 		2065BA7D1E371EA000433880 /* Weapons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2065BA7C1E371EA000433880 /* Weapons.swift */; };
 		20682FF11E2A039100DEBA13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20682FF01E2A039100DEBA13 /* AppDelegate.swift */; };
 		20682FF61E2A039100DEBA13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20682FF41E2A039100DEBA13 /* Main.storyboard */; };
@@ -61,12 +62,13 @@
 		20DFCC791E39E2C3007C3306 /* WeaponPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DFCC781E39E2C3007C3306 /* WeaponPageViewController.swift */; };
 		20DFCC7B1E39E2EC007C3306 /* WeaponViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DFCC7A1E39E2EC007C3306 /* WeaponViewController.swift */; };
 		20DFCC7F1E3A4A87007C3306 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DFCC7E1E3A4A87007C3306 /* PhotoViewController.swift */; };
-		20F22B031E4B181400DD787C /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F22B021E4B181400DD787C /* GameKit.framework */; };
 		20F68F8B1E350D480022D151 /* HitEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F68F8A1E350D480022D151 /* HitEffects.swift */; };
 		20FF65BC1E2A8A2800BFBF10 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20FF65BB1E2A8A2800BFBF10 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20448D321E503CA900EF6EE6 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		20448D341E503CAA00EF6EE6 /* liveflower.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = liveflower.entitlements; sourceTree = "<group>"; };
 		2065BA7C1E371EA000433880 /* Weapons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weapons.swift; sourceTree = "<group>"; };
 		20682FED1E2A039100DEBA13 /* livegun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = livegun.app; path = liveflower.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20682FF01E2A039100DEBA13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -124,8 +126,6 @@
 		20DFCC781E39E2C3007C3306 /* WeaponPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeaponPageViewController.swift; path = ../WeaponPageViewController.swift; sourceTree = "<group>"; };
 		20DFCC7A1E39E2EC007C3306 /* WeaponViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeaponViewController.swift; path = ../WeaponViewController.swift; sourceTree = "<group>"; };
 		20DFCC7E1E3A4A87007C3306 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
-		20F22B021E4B181400DD787C /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
-		20F22B041E4C69EE00DD787C /* livegun.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = livegun.entitlements; sourceTree = "<group>"; };
 		20F68F8A1E350D480022D151 /* HitEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HitEffects.swift; sourceTree = "<group>"; };
 		20FF65BB1E2A8A2800BFBF10 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -162,7 +162,7 @@
 				209687931E41D46D00C938EF /* libsqlite3.tbd in Frameworks */,
 				209687911E41D45A00C938EF /* libc++.tbd in Frameworks */,
 				209687DA1E41F63300C938EF /* VungleSDK.framework in Frameworks */,
-				20F22B031E4B181400DD787C /* GameKit.framework in Frameworks */,
+				20448D331E503CA900EF6EE6 /* GameKit.framework in Frameworks */,
 				2096878D1E41D25800C938EF /* GoogleToolboxForMac.framework in Frameworks */,
 				2096878C1E41D25800C938EF /* GoogleSymbolUtilities.framework in Frameworks */,
 				2096878F1E41D2F000C938EF /* GoogleMobileAds.framework in Frameworks */,
@@ -180,6 +180,7 @@
 		20682FE41E2A039100DEBA13 = {
 			isa = PBXGroup;
 			children = (
+				20448D341E503CAA00EF6EE6 /* liveflower.entitlements */,
 				209687CA1E41F62400C938EF /* Vungle */,
 				209687C51E41F1D000C938EF /* Chartboost */,
 				209687C01E41E85700C938EF /* Unity */,
@@ -207,7 +208,6 @@
 		20682FEF1E2A039100DEBA13 /* livegun */ = {
 			isa = PBXGroup;
 			children = (
-				20F22B041E4C69EE00DD787C /* livegun.entitlements */,
 				20DFCC761E38A2FD007C3306 /* MainViewController.swift */,
 				20DFCC741E38A135007C3306 /* VideoViewController.swift */,
 				20DFCC7E1E3A4A87007C3306 /* PhotoViewController.swift */,
@@ -231,7 +231,7 @@
 		2096877B1E407B6100C938EF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				20F22B021E4B181400DD787C /* GameKit.framework */,
+				20448D321E503CA900EF6EE6 /* GameKit.framework */,
 				209687BC1E41D63900C938EF /* WebKit.framework */,
 				209687BA1E41D63200C938EF /* UIKit.framework */,
 				209687B81E41D62200C938EF /* SystemConfiguration.framework */,
@@ -532,7 +532,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = livegun/livegun.entitlements;
+				CODE_SIGN_ENTITLEMENTS = liveflower.entitlements;
 				DEVELOPMENT_TEAM = 4HFWK8AXKL;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -556,7 +556,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = livegun/livegun.entitlements;
+				CODE_SIGN_ENTITLEMENTS = liveflower.entitlements;
 				DEVELOPMENT_TEAM = 4HFWK8AXKL;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",

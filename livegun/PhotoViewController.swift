@@ -35,7 +35,8 @@ class PhotoViewController: BaseViewController {
     
     @IBAction func onShare() {
         onClickSound()
-        let text = "My victim list contains \(kills.cnt) people. Are you ready try this new game and beat me?"
+        
+        let text = "Play the game now! I just ended with \(kills.cnt) points."
         let image = photoImageView.image!
         let url = URL(string: "https://itunes.apple.com/us/app/myapp/id1203653615?ls=1&mt=8")!
 
